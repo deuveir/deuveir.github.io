@@ -1,16 +1,16 @@
 @font-face {
     font-family: din;
-    src: url(./lexicon/media/fonts/font.din.light.woff);
+    src: url(../lexicon/media/fonts/font.din.light.woff);
 }
 
 @font-face {
     font-family: ruhl;
-    src: url(./lexicon/media/fonts/font.ruhl.woff);
+    src: url(../lexicon/media/fonts/font.ruhl.woff);
 }
 
 @font-face {
     font-family: input;
-    src: url(./lexicon/media/fonts/font.input.extralight.woff);
+    src: url(../lexicon/media/fonts/font.input.extralight.woff);
 }
 
 a {
