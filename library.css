@@ -13,6 +13,11 @@
     src: url(../lexicon/media/fonts/font.input.extralight.woff);
 }
 
+@font-face {
+    font-family: domestic;
+    src: url(../lexicon/media/fonts/font.domestic.pixel.woff);
+}
+
 a {
     text-decoration: none;
     color: #a1a1a1;
