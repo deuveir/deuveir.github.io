@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="">
+<link rel="icon" href="favicon.gif" type="image/png">
+<script>
+	function startTime() {
+		var today = new Date();
+		var h = today.getHours();
+		var m = today.getMinutes();
+		var s = today.getSeconds();
+		m = checkTime(m);
+		s = checkTime(s);
+		document.getElementById('txt').innerHTML =
+		h + ":" + m + ":" + s;
+		var t = setTimeout(startTime, 500);
+	}
+	function checkTime(i) {
+		if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+		return i;
+	}
+</script>
+
+<head>
+	<title>vaneacom</title>
+	<style type="text/css">
+		a {text-decoration: none; color: #a1a1a1;}
+		a:hover, ::selection {text-decoration: none; color: #ccc; background-color: #efefef;}
+		h2 {font-weight: 100; background-color: #efefef;}
+		hr {border-width:0; border-top: 1px dotted #fff}
+		summary {outline: none;}
+		mark {background: #ccc; color:#fff;}
+		table, th, td {border: 1px dotted black;}
+		tt {font-family: dozenalvaneac;}
+		::-webkit-details-marker {display: none;}
+		.image {display: grid; justify-content: center; grid-template-columns: 1fr 1fr;}
+		#txt {background: #000; color: #fff;}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="vaneacom">
+	<meta property="og:description" content="...">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="300">
+	<meta property="og:image:height" content="300">
+</head>
+
+<tt>
+<body onload="startTime()"><div id="txt"></div></body>
+</tt>
+
+<table style="width: 100%;">
+	<tr>
+		<th><a href="./messenger"><img src="./lexicon/vectors/messenger.svg" width="25%"></a></th>
+		<th><a href="./radio"><img src="./lexicon/vectors/radio.svg" width="25%"></a></th>
+		<th><a href="./database"><img src="./lexicon/vectors/database.svg" width="25%"></a></th>
+	</tr>
+	<tr>
+		<th><a href="./database"><img src="./lexicon/vectors/map.svg" width="100%"></a></th>
+		<th><a href="./database"><img src="./lexicon/vectors/map.svg" width="100%"></a></th>
+		<th><a href="./database"><img src="./lexicon/vectors/map.svg" width="100%"></a></th>
+	</tr>
+</table>
+
