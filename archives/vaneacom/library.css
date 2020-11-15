@@ -1,8 +1,4 @@
 @font-face {
-    font-family: oldvaneac;
-    src: url(./lexicon/fonts/oldvaneac.ttf);
-}
-@font-face {
     font-family: dozenalvaneac;
-    src: url(./lexicon/fonts/dozenalvaneac.otf);
+    src: url(./lexicon/fonts/dozenalvaneac.ttf);
 }

@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
 <link rel="icon" href="favicon.gif" type="image/png">
+
 <script>
 	function startTime() {
 		var today = new Date();
@@ -29,10 +30,9 @@
 		summary {outline: none;}
 		mark {background: #ccc; color:#fff;}
 		table, th, td {border: 1px dotted black;}
-		tt {font-family: dozenalvaneac;}
 		::-webkit-details-marker {display: none;}
 		.image {display: grid; justify-content: center; grid-template-columns: 1fr 1fr;}
-		#txt {background: #000; color: #fff;}
+		#txt {font-family: "dozenalvaneac"; background: #000; color: #fff;}
 	</style>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="vaneacom">
@@ -42,9 +42,7 @@
 	<meta property="og:image:height" content="300">
 </head>
 
-<tt>
-<body onload="startTime()"><div id="txt"></div></body>
-</tt>
+<tt><body onload="startTime()"><div id="txt"></div></body></tt>
 
 <table style="width: 100%;">
 	<tr>
