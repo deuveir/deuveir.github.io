@@ -1,4 +1,4 @@
 @font-face {
     font-family: dozenal;
-    src: url(./lexicon/fonts/dozenal.ttf);
+    src: url(./lexicon/fonts/dozenal.ttf) format('truetype')
 }
