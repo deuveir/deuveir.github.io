@@ -1,0 +1,431 @@
+@font-face {
+    font-family: din;
+    src: url(../lexicon/media/fonts/font.din.light.woff);
+}
+
+@font-face {
+    font-family: ruhl;
+    src: url(../lexicon/media/fonts/font.ruhl.woff);
+}
+
+@font-face {
+    font-family: input;
+    src: url(../lexicon/media/fonts/font.input.extralight.woff);
+}
+
+@font-face {
+    font-family: domestic;
+    src: url(../lexicon/media/fonts/font.domestic.pixel.woff);
+}
+
+a {
+    text-decoration: none;
+    color: #a1a1a1;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #efefef;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+h1 {
+
+    font-family: "din";
+    font-size: 12px;
+}
+
+mark {
+    background: #141414;
+    color:#ffffff;
+    font-family: "input";
+    font-size: 8px;
+}
+
+body {
+    background: hsla(0, 0%, 24%, 1);
+    background-image: radial-gradient(hsla(0, 0%, 24%, 1) 5%, transparent 0);
+    background-size: 15px 15px;
+}
+
+#banner-00 {
+    width: 85%;
+    background: #ffffff;
+    color: #3d3d3d;
+    padding: 25px;
+    float: center;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "din";
+    font-size: 10px;
+}
+
+#banner-01 {
+    width: 85%;
+    height: 450px;
+    color: #141414;
+    background-color: #a1a1a1;
+    padding: 25px;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "input";
+    font-size: 8px;
+}
+
+#image-01 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-02 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-03 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-04 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-05 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-06 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-07 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-08 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-09 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-10 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-11 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-12 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-13 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-14 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-15 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-16 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-17 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-18 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-19 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-20 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-21 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-22 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-23 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-24 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-25 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-26 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-27 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-28 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-29 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-30 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-31 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-32 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-33 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-34 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-35 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-36 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-37 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-38 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-39 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#image-40 {
+    width: 100%;
+    height: 450px;
+    color: #ffffff;
+    background-color: #a1a1a1;
+}
+
+#module-00 {
+    width: 85%;
+    background: #ffffff;
+    color: #000000;
+    padding: 25px;
+    float: center;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    font-family: "din";
+    font-size: 10px;
+}
+
+#module-01 {
+    width: 85%;
+    background: #ffffff;
+    color: #3d3d3d;
+    padding: 25px;
+    float: center;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "din";
+    font-size: 10px;
+}
+
+#module-02 {
+    width: 85%;
+    background: #ffffff;
+    color: #cccccc;
+    padding: 25px;
+    float: center;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    font-family: "din";
+    font-size: 10px;
+}
+
+#module-03 {
+    width: 85%;
+    background: #ffffff;
+    color: #cccccc;
+    padding: 25px;
+    float: center;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 5%;
+    font-family: "din";
+    font-size: 10px;
+}
+
+#submodule-01 {
+    width: auto;
+    background: #efefef;
+    color: #000000;
+    padding: 10px;
+    float: center;
+    position: relative;
+    margin-right: auto;
+    font-family: "input";
+    font-size: 8px;
+}
