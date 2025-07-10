@@ -21,7 +21,6 @@
 a {
     text-decoration: none;
     color: #a1a1a1;
-    font: domestic;
 }
 
 a:hover {
@@ -49,12 +48,6 @@ mark {
     color:#ffffff;
     font-family: "input";
     font-size: 8px;
-}
-
-body {
-    background: hsla(0, 0%, 24%, 1);
-    background-image: radial-gradient(hsla(0, 0%, 24%, 1) 5%, transparent 0);
-    background-size: 15px 15px;
 }
 
 #banner-00 {
